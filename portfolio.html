@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,41 +18,45 @@
     <title>Web Studio</title>
   </head>
   <body>
-    <header class="header">
-      <nav class="header-nav">
-        <a href="./index.html" class="header-logo-link link"
-          >Web<span class="header-logo-studio">Studio</span></a
-        >
-        <ul class="header-list list">
-          <li class="header-item">
-            <a href="./index.html" class="header-link link"> Studio</a>
-          </li>
-          <li class="header-item">
-            <a href="./portfolio.html" class="header-link link"> Portfolio</a>
-          </li>
-          <li class="header-item">
-            <a href="" class="header-link link"> Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="header-address">
-        <ul class="contacts-list list">
-          <li class="contacts-item">
-            <a href="mailto:info@devstudio.com" class="contacts-link link">
-              info@devstudio.com
-            </a>
-          </li>
-          <li class="contacts-item">
-            <a href="tel:+110001111111" class="contacts-link link">
-              +11 (000) 111-11-11
-            </a>
-          </li>
-        </ul>
-      </address>
-    </header>
+    
+      <header class="header">
+        <div class="container header-container">
+        <nav class="header-nav">
+          <a href="./index.html" class="header-logo-link link"
+            >Web<span class="header-logo-studio">Studio</span></a
+          >
+          <ul class="header-list list">
+            <li class="header-item">
+              <a href="./index.html" class="header-link link"> Studio</a>
+            </li>
+            <li class="header-item">
+              <a href="./portfolio.html" class="header-link link"> Portfolio</a>
+            </li>
+            <li class="header-item">
+              <a href="" class="header-link link"> Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="header-address">
+          <ul class="contacts-list list">
+            <li class="contacts-item">
+              <a href="mailto:info@devstudio.com" class="contacts-link link">
+                info@devstudio.com
+              </a>
+            </li>
+            <li class="contacts-item">
+              <a href="tel:+110001111111" class="contacts-link link">
+                +11 (000) 111-11-11
+              </a>
+            </li>
+          </ul>
+        </address>
+      </header>
+    </div>
     <main>
       <section class="portfolio">
-        <h1 hidden>Portfolio</h1>
+        <div class="container"></div>
+        <h1 class="visually-hidden">Portfolio</h1>
         <ul class="portfolio-list list">
           <li class="portfolio-item">
             <button type="button" class="portfolio-btn button">All</button>
@@ -68,7 +76,7 @@
             </button>
           </li>
         </ul>
-
+        
         <ul class="projects-list list">
           <li class="projects-item">
             <a class="projects-link link">
@@ -77,9 +85,11 @@
                 alt="Banking App"
                 width="360"
               />
+              <div class="project-text">
               <h2 class="projects-item-title">Banking App Interface Concept</h2>
-              <p class="project-title-text">App</p></a
+              <p class="project-title-text">App</p></div></a
             >
+            
           </li>
           <li class="projects-item">
             <a class="projects-link link">
@@ -88,9 +98,11 @@
                 alt="Cashless Payment"
                 width="360"
               />
+              <div class="project-text">
               <h2 class="projects-item-title">Cashless Payment</h2>
-              <p class="project-title-text">Marketing</p></a
+              <p class="project-title-text">Marketing</p></div></a
             >
+            
           </li>
           <li class="projects-item">
             <a class="projects-link link">
@@ -99,9 +111,11 @@
                 alt="Meditation App"
                 width="360"
               />
+              <div class="project-text">
               <h2 class="projects-item-title">Meditation App</h2>
-              <p class="project-title-text">App</p></a
+              <p class="project-title-text">App</p></div></a
             >
+            
           </li>
 
           <li class="projects-item">
@@ -111,9 +125,11 @@
                 alt="Taxi Service"
                 width="360"
               />
+              <div class="project-text">
               <h2 class="projects-item-title">Taxi Service</h2>
-              <p class="project-title-text">Marketing</p></a
+              <p class="project-title-text">Marketing</p></div></a
             >
+            
           </li>
           <li class="projects-item">
             <a class="projects-link link">
@@ -122,9 +138,11 @@
                 alt="Screen Illustrations"
                 width="360"
               />
+              <div class="project-text">
               <h2 class="projects-item-title">Screen Illustrations</h2>
-              <p class="project-title-text">Design</p></a
+              <p class="project-title-text">Design</p></div></a
             >
+            
           </li>
           <li class="projects-item">
             <a class="projects-link link">
@@ -133,9 +151,11 @@
                 alt="Online Courses"
                 width="360"
               />
+              <div class="project-text">
               <h2 class="projects-item-title">Online Courses</h2>
-              <p class="project-title-text">Marketing</p></a
+              <p class="project-title-text">Marketing</p></div></a
             >
+           
           </li>
 
           <li class="projects-item">
@@ -145,9 +165,13 @@
                 alt="Instagram Stories Concept"
                 width="360"
               />
+              <div class="project-text">
               <h2 class="projects-item-title">Instagram Stories Concept</h2>
-              <p class="project-title-text">Design</p></a
+              <p class="project-title-text">Design</p>
+              </div>
+              </a
             >
+            
           </li>
           <li class="projects-item">
             <a class="projects-link link">
@@ -156,8 +180,10 @@
                 alt="Organic Food"
                 width="360"
               />
+              <div class="project-text">
               <h2 class="projects-item-title">Organic Food</h2>
               <p class="project-title-text">Web Site</p>
+              </div>
             </a>
           </li>
           <li class="projects-item">
@@ -167,14 +193,19 @@
                 alt="Fresh Coffee"
                 width="360"
               />
+              <div class="project-text">
               <h2 class="projects-item-title">Fresh Coffee</h2>
-              <p class="project-title-text">Web Site</p></a
+              <p class="project-title-text">Web Site</p>
+              </div>
+              </a
             >
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
+      <div class="container footer-contanier">
       <a href="./index.html" class="footer-logo-link link"
         >Web<span class="footer-logo-studio">Studio</span></a
       >
@@ -182,6 +213,7 @@
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
+      </div>
     </footer>
   </body>
 </html>
