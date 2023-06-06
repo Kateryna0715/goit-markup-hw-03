@@ -305,8 +305,8 @@ img {
   row-gap: 48px;
   column-gap: 24px;
 }
-.project-item {
-  width: calc((100%- 48px) / 3);
+.projects-item {
+  width: calc((100% - 48px) / 3);
 }
 
 .project-text {
