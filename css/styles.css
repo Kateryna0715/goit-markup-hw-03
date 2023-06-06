@@ -200,6 +200,7 @@ img {
   letter-spacing: 0.02em;
 
   color: var(--dark);
+  margin-bottom: 8px;
 }
 .works {
   padding-bottom: 120px;
@@ -216,6 +217,7 @@ img {
 .works-list {
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
 .works-item {
   flex-basis: calc((100%-2 * 24) / 3);
@@ -243,6 +245,7 @@ img {
 .team-list {
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
 .team-item {
   width: calc((100%-3 * 24px) / 4);
